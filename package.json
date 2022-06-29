@@ -1,5 +1,8 @@
 {
   "name": "hardhat-project",
+  "scripts": {
+    "start:fork":"npx hardhat node --fork https://speedy-nodes-nyc.moralis.io/f19381e84e5c8dde5935ae3e/bsc/mainnet/archive"
+  },
   "devDependencies": {
     "@nomiclabs/hardhat-etherscan": "^3.0.3",
     "hardhat": "^2.8.4"
