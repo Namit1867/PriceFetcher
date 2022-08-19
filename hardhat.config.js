@@ -19,7 +19,7 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
  */
 
 module.exports = {
-  defaultNetwork: "localhost",
+  defaultNetwork: "hardhat",
   mocha: {
     timeout: 800000
   },
@@ -34,7 +34,7 @@ module.exports = {
     },
     hardhat: {
       forking: {
-        url: "https://speedy-nodes-nyc.moralis.io/f19381e84e5c8dde5935ae3e/bsc/mainnet/archive",
+        url: "https://rough-frosty-leaf.bsc.discover.quiknode.pro/9363314ccc6ba552854beccbc3b0d10ff7afaa70/",
       },
     },
   },
